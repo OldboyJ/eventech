@@ -1,0 +1,92 @@
+/*--------------------------------------
+--------------*** GLOBAL STYLE ***------------
+----------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  container: 1170px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------
+--------------*** MAIN TOP BANNER ***------------
+----------------------------------------*/
+
+/*** HEADER ***/
+header {
+  background-image: url('./img/et_banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.logo {
+  float: left;
+  padding-left: 45px;
+  padding-top: 25px;
+}
+
+.head-nav ul {
+  float: right;
+  width: 685px;
+  margin-right: 40px;
+}
+
+.head-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1%;
+  padding: 0 12px;
+  height: 45px;
+}
+
+.head-nav ul li:last-child {
+  display: inline-block;
+  background-color: #EC143D;
+  border-radius: 20px;
+  height: 40px;
+  width: 98px;
+  padding-left: 25px;
+}
+
+
+.head-nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 40px 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.head-nav ul li:hover a {
+  transition-duration: .3s;
+  color: #EC143D;
+}
+
+.head-nav ul li:last-child a {
+  font-size: 12px;
+  padding-top: 13px;
+}
+
+/*** MAIN BANNER STYLE ***/
+.countdown-row {
+  color: #ffffff;
+}
