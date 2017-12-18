@@ -185,18 +185,99 @@ header {
 .intro-title {
   color: #1c1c24;
   font-size: 36px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
-.intro-section p {
+.intro-services {
   color: #333;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 65px;
 }
 
 .intro-video {
-  width: 560px;
-  height: 343px;
+  width: 50%;
+  float: left;
+}
+
+.featured-right-panel {
+  float: left;
+  width: 50%;
+  text-align: initial;
+  padding: 0 20px;
+}
+
+.featured-tabs {
+  margin-bottom: 30px;
+}
+
+.featured-tabs li {
+  list-style: none;
+  display: inline;
+  margin: 0 5px;
+}
+
+.featured-tabs li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+  background-color: #222;
+  height: 40px;
+  border-radius: 20px;
+  padding-top: 10px;
+  width: 124px;
+  text-align: center;
+}
+
+.featured-tabs li:first-child a {
+  width: 192px;
+  background-color: #EC143D;
+}
+
+.right-panel-text {
+  color: #222;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.right-panel-text p {
+  margin-bottom: 10px;
+}
+.right-panel-text h3 {
+  font-size: 20px;
+  letter-spacing: .5px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+ blockquote {
+  border-left: 3px solid #ee163a;
+  line-height: 24px;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+/*--------------------------------------
+--------------*** FACTS SECTION ***------------
+----------------------------------------*/
+.facts-strip {
+  height: 296px;
+  background-image: url('../img/parallax1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.facts-strip:after {
+  background-color: rgba(0, 0, 0. 0.7);
+  position: absolute;
 }
 
 /*--------------------------------------
@@ -257,6 +338,7 @@ header {
   color: #888;
   font-weight: lighter;
 }
+
 .footer-menu ul li {
   list-style: none;
   display: inline;
@@ -264,14 +346,14 @@ header {
 }
 
 .footer-menu ul li a {
-  color: #888;
+  color: #999;
   font-size: 11.5px;
   font-weight: 300;
   letter-spacing: .5px;
 }
 
 .footer-copyright {
-  color: #888;
+  color: #999;
   font-size: 13px;
   font-weight: 300;
   margin: auto;
