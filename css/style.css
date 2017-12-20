@@ -345,7 +345,7 @@ header {
 }
 
 /*--------------------------------------
---------------*** FOOTER SECTION ***------------
+--------------*** EVENT SCHEDULE ***------------
 ----------------------------------------*/
 .event-schedule {
   height: 1321px;
@@ -461,8 +461,93 @@ header {
   color: #ee163a;
 }
 
+/*--------------------------------------
+--------------*** SPEAKERS ***------------
+----------------------------------------*/
 
+.event-speakers {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  height: 1110px;
+  background-color: #1c1c1c;
+  background-image: url('../img/parallax2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  width: 100%;
+}
 
+.speakers-content, .container {
+  position: relative;
+  z-index: 1;
+}
+
+.speakers-content:after {
+  background-color: rgba(0, 0, 0, 0.7);
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+}
+
+.speakers-title {
+  text-align: center;
+}
+
+.speakers-title h2 {
+  font-size: 36px;
+  font-weight: 300px;
+  padding-bottom: 15px;
+}
+
+.speakers-title p {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+
+.speakers-profile {
+  float: left;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.speaker-info {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.speaker-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.speaker-name {
+  padding: 15px 20px;
+}
+
+.speaker-name a {
+  color: #ee163a;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.speaker-name p {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 29px;
+}
+
+.speaker-row-gap {
+  clear: both;
+  height: 40px;
+}
 
 /*--------------------------------------
 --------------*** FOOTER SECTION ***------------
