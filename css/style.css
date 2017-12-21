@@ -550,6 +550,89 @@ header {
 }
 
 /*--------------------------------------
+--------------*** SPONSORS / PARTNERS ***------------
+----------------------------------------*/
+.sponsors-partners {
+  height: 1215px;
+  color: #1c1c1c;
+  font-family: 'Roboto', sans-serif;
+  padding: 80px 0;
+}
+
+.sponsors-partners-heading {
+  text-align: center;
+}
+
+.sponsors-partners-heading h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 15px;
+}
+
+.sponsor {
+  padding: 0 130px;
+}
+
+.sponsor h3,
+.sponsor2 h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.sponsor-logo {
+  width: 29.333333%;
+}
+
+.sponsor-logo2 {
+  width: 22%;
+}
+.sponsor-logo,
+.sponsor-logo2 {
+  float: left;
+  padding: 0 15px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 125px;
+  margin: 60px 15px;
+}
+
+.sponsor-logo a,
+.sponsor-logo2 a {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.sponsor-logo img,
+.sponsor-logo2 img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sponsor-logo:nth-child(3) img{
+  margin-top: 45px;
+}
+
+.button-row {
+  text-align: center;
+  margin-top: 60px;
+}
+.become-sponsor-red {
+  padding: 13px 40px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ee163a;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+/*--------------------------------------
 --------------*** FOOTER SECTION ***------------
 ----------------------------------------*/
 .footer-background {
