@@ -1,3 +1,3 @@
 # eventech
 
-## A static HTML/CSS site for tech confernences. 
+## A static HTML/CSS site for tech conferences.
