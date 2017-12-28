@@ -649,20 +649,30 @@ header {
 
 .prices-panel {
   background: #fff;
+  color: #1D1C24;
   width: 30.33333%;
   padding: 50px;
   margin: 0 15px;
   border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
   float: left;
+  position: relative;
 }
 
+.prices-panel h2:first-child {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
 .prices-panel ul {
   list-style: none;
+  line-height: 1.8em;
 }
 
 .prices-panel ul li {
   border-top: 1px dotted #ddd;
   padding: 15px 0;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .prices-panel ul li:first-child {
@@ -672,7 +682,14 @@ header {
 .pricing {
   display: inline-block;
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: 24px;
+}
+
+.pricing > span {
+  font-size: 18px;
+  position: absolute;
+  top: 96px;
+  left: 36px;
 }
 
 .pricing > strong {
@@ -681,7 +698,7 @@ header {
 
 .pricing > small {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: #777;
 }
 /*--------------------------------------
